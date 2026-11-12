@@ -1,0 +1,10 @@
+# dsh-go-runtime-kit bundle patch
+#
+# Adjusts host system-prompt settings for entries already in the queue.
+# The plugin's own insert is written into <profile>/cordis.patch.yml by bin/install.mjs.
+
+- id: system-prompt
+  config:
+    includeHarnessIdentity: false
+    personaPrefix: ""
+    personaSuffix: ""

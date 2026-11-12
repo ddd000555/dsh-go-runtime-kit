@@ -1,0 +1,29 @@
+{
+  "name": "dsh-go-runtime-kit",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Runtime context kit for DSH Go: layered reply profile, tool-gate defaults and prompt assembly normalization. No host source files are patched.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "rtkit-install": "./bin/install.mjs",
+    "rtkit-uninstall": "./bin/uninstall.mjs"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "bin",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}
