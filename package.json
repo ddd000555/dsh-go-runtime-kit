@@ -1,7 +1,6 @@
 {
   "name": "dsh-go-runtime-kit",
   "version": "1.2.0",
-  "private": true,
   "description": "Runtime context kit for DSH Go: layered reply profile, tool-gate defaults and prompt assembly normalization. No host source files are patched.",
   "type": "module",
   "main": "index.js",
@@ -25,5 +24,25 @@
       "patch": "./cordis.patch.yml"
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddd000555/dsh-go-runtime-kit.git"
+  },
+  "homepage": "https://github.com/ddd000555/dsh-go-runtime-kit#readme",
+  "bugs": {
+    "url": "https://github.com/ddd000555/dsh-go-runtime-kit/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-go",
+    "cordis",
+    "prompt",
+    "profile"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
 }
