@@ -1,6 +1,6 @@
 {
   "name": "dsh-go-runtime-kit",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Runtime context kit for DSH Go: layered reply profile, tool-gate defaults and prompt assembly normalization. No host source files are patched.",
   "type": "module",
   "main": "index.js",
